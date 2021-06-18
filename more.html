@@ -25,22 +25,22 @@
     </div>
 
     <div class="social">
-        <label for = "Socials">Link to Ninja's Socials</label>
+        <label for = "Socials">Select his social to visit :</label>
         <br>
-        <select>
-            <option value = "" disabled selected>None</option>
-            <option>Twitch</option>
-            <option>Youtube</option>
-            <option>Twitter</option>
-            <option>Instagram</option>
-            <option>Merch Shop</option>
-        </select>
-    </div>
-
-    <div class = "button">
-        <button>Submit</button>
+        <div id = "form">
+            <select id = "around">
+                <option value = "" disabled selected>None</option>
+                <option>Twitch</option>
+                <option>Youtube</option>
+                <option>Twitter</option>
+                <option>Instagram</option>
+                <option>Merch Shop</option>
+            </select>
+            <button id = "submit" class="button">Submit</button>
+        </div>
     </div>
     
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
     <script src="morescript.js"></script>
 </body>
 </html>

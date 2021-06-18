@@ -79,4 +79,13 @@ body {
 
 .button{
   text-align: center;
+  align-items: center;
+}
+
+h2{
+  color: #F45B69;
+}
+
+span{
+  color: #F45B69;
 }
